@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/train.iml" filepath="$PROJECT_DIR$/train.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/train.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/train.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/train.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/train.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/train.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/train.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/train.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/train.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/train.desktop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/train.desktop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/train.desktop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/train.desktop.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/train.html.iml" filepath="$PROJECT_DIR$/.idea/modules/html/train.html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/train.html.main.iml" filepath="$PROJECT_DIR$/.idea/modules/html/train.html.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/train.html.test.iml" filepath="$PROJECT_DIR$/.idea/modules/html/train.html.test.iml" />
+    </modules>
+  </component>
+</project>

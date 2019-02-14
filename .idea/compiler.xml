@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="train.core.main" target="1.6" />
+      <module name="train.core.test" target="1.6" />
+      <module name="train.desktop.main" target="1.6" />
+      <module name="train.desktop.test" target="1.6" />
+      <module name="train.html.main" target="1.6" />
+      <module name="train.html.test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
