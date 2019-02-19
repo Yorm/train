@@ -53,7 +53,7 @@ public class AboutScreen implements Screen {
         contacts0 = new Label( "If I use your intellectual property", skin );
         contacts1 = new Label( "and you don’t like it", skin );
         contacts2 = new Label( " - please, contact me: walterdive@gmail.com", skin );
-        contacts3 = new Label( "_20190216_", skin );
+        contacts3 = new Label( "_20190219_", skin );
 
         table.add(titleLabel).colspan(2);
         table.row().pad(10,0,0,10);

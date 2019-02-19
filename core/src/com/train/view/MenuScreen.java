@@ -2,6 +2,7 @@ package com.train.view;
 
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -17,10 +18,13 @@ public class MenuScreen implements Screen {
     private Stage stage;
     private Skin skin;
 
+    Sound clickSound;
+
     public MenuScreen(Main main){
         this.parent = main;
         stage = new Stage(new ScreenViewport());
         skin = new Skin(Gdx.files.internal("skin/uiskin.json"));
+        clickSound = Gdx.audio.newSound(Gdx.files.internal("click.wav"));
     }
 
     @Override
@@ -43,6 +47,7 @@ public class MenuScreen implements Screen {
         settings.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
+                clickSound.play();
                 parent.changeScreen(Main.SETTINGS);
             }
         });
@@ -50,6 +55,7 @@ public class MenuScreen implements Screen {
         about.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
+                clickSound.play();
                 parent.changeScreen(Main.ABOUT);
             }
         });
@@ -101,5 +107,6 @@ public class MenuScreen implements Screen {
     public void dispose() {
         stage.dispose();
         skin.dispose();
+        clickSound.dispose();
     }
 }
